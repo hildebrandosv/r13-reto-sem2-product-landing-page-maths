@@ -49,6 +49,7 @@ ___
    > NOTA: se entregan los retos de la Página de Tributo y del Formulario de Encuesta en el mismo formulari de entrega de Academia Geek.
 
 + En freeCodeCamp:
+![image](https://user-images.githubusercontent.com/73366557/147694285-2a4444d5-031f-4edf-8984-e14f9ae11f7b.png)
 
 ### - Código fuente:
 
