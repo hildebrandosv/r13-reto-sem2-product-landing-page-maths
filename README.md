@@ -58,5 +58,5 @@ ___
 ![image](https://user-images.githubusercontent.com/73366557/147695394-d29c3929-f862-45a4-adcc-b81446b1aa91.png)
 
 ___
-### <span style="color: GREEN">Hildebrando Sierra V.</span>
+### Hildebrando Sierra V.
 
