@@ -24,7 +24,9 @@ body, nav{
 #idMain {
   margin-top: 5em;
 }
-
+.card-title {
+  background-color: #e0dada !important;
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: rgb(196, 238, 196);

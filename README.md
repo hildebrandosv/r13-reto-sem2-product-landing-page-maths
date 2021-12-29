@@ -39,7 +39,7 @@ ___
 
 * ***Historia de Usuario #14:*** Mi página de aterrizaje de producto debería tener al menos una media query.
 
-* Historia de Usuario #15: Mi página de aterrizaje de producto debería utilizar CSS flexbox al menos una vez.
+* ***Historia de Usuario #15:*** Mi página de aterrizaje de producto debería utilizar CSS flexbox al menos una vez.
 
 ## --> PANTALLAS DE EVIDENCIA:
 
