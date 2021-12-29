@@ -24,9 +24,27 @@ body, nav{
 #idMain {
   margin-top: 5em;
 }
-#idVideo {
-  overflow: hidden;
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(196, 238, 196);
+  }
+  footer {
+    opacity: 1;
+    display: flexbox;
+    justify-content: end;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  p{
+    font-size: .85em;
+  }
+  .clImg {
+    object-fit: fill;
+  }
 }
+
 .clMainTitle {
   color: var(--colorMainTitle);
   font-size: 2rem;

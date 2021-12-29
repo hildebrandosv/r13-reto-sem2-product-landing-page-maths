@@ -63,15 +63,15 @@
       ¡Enamorarte de las matemáticas!
       <span class="text-warning"> 😃</span>
     </h1>
-    <form class="row d-flex justify-content-center mt-4">
-      <input class="form-control me-2 text-center w-50" type="search" placeholder="Digita tu correo electrónico"
+    <form id="form" class="row d-flex justify-content-center mt-4" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" class="form-control me-2 text-center w-50" type="email" placeholder="Digita tu correo electrónico" required
         aria-label="Search">
-      <button class="btn btn-outline-success w-25 fw-bold" type="submit">Comienza ya</button>
+      <button id="submit" class="btn btn-outline-success w-25 fw-bold" type="submit">Comienza ya</button>
     </form>
   </section>
   <!-- Section ADDITION -->
   <section id="idAddition" class="container d-flex mt-4">
-    <img id="" class="me-4 img-fluid" src="./images/addition.png" alt="" width="115" height="115">
+    <img id="" class="me-4 img-fluid clImg" src="./images/addition.png" alt="" width="115" height="115">
     <div>
       <h2>La maravillosa SUMA:</h2>
       <p>Operación aritmética que consiste en reunir varias cantidades en una sola; se representa con el signo +. Por
@@ -82,7 +82,7 @@
   </section>
   <!-- Section SUBSTRACTION -->
   <section id="idSubstraction" class="container d-flex mt-4">
-    <img id="" class="me-4 img-fluid" src="./images/substraction.png" alt="" width="115" height="115">
+    <img id="" class="me-4 img-fluid clImg" src="./images/substraction.png" alt="" width="115" height="115">
     <div>
       <h2>La espectacular RESTA:</h2>
       <p>Operación aritmética que consiste en quitar una cantidad (el sustraendo) de otra (el minuendo) para averiguar
@@ -93,7 +93,7 @@
   </section>
   <!-- Section MULTIPLICATION -->
   <section id="idMultiplication" class="container d-flex mt-4">
-    <img id="" class="me-4 img-fluid" src="./images/multiplication.png" alt="" width="115" height="115">
+    <img id="" class="me-4 img-fluid clImg" src="./images/multiplication.png" alt="" width="115" height="115">
     <div>
       <h2>La intrépida MULTIPLICACIÓN:</h2>
       <p>Operación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando)
@@ -104,7 +104,7 @@
   </section>
   <!-- Section DIVISION -->
   <section id="idDivision" class="container d-flex mt-4">
-    <img id="" class="me-4 img-fluid" src="./images/division.png" alt="" width="115" height="115">
+    <img id="" class="me-4 img-fluid clImg" src="./images/division.png" alt="" width="115" height="115">
     <div>
       <h2>La enigmática DIVISIÓN:</h2>
       <p>Operación aritmética que consiste en calcular cuántas veces (cociente) una cantidad (el divisor) está contenida
@@ -115,7 +115,7 @@
   </section>
   <!-- Section OTHERS -->
   <section id="idOthers" class="container d-flex mt-4">
-    <img id="" class="me-4 img-fluid" src="./images/others.png" alt="" width="115" height="115">
+    <img id="" class="me-4 img-fluid clImg" src="./images/others.png" alt="" width="115" height="115">
     <div>
       <h2>Otras áreas de interés y EXPECTACULARES:</h2>
       <p>La forma en que se organizan las matemáticas de alto nivel está determinada sobre todo por los usos, y cambia
@@ -125,18 +125,19 @@
       </p>
     </div>
   </section>
-
-
   <!-- Video -->
-  <section class="container text-center">
+  <section class="container text-center mt-5">
+    <!-- Video (the embed video is commented): the following form of to show the video is with "iframe" and the classes of Bootstrap to manipulate embed videos. This method no is used in this page becouse I am getting a local video. -->
     <!-- <div class="ratio ratio-16x9">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/CVp8Du2wKgo" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div> -->
+    <!-- Showing local video -->
+    <!-- Video (with storage locally): the following form of to show the video is with "video" tag and is storaged locally. This video was compress to save space. -->
     <div class="row container">
       <div class="">
-        <video id="idVideo" class="col-12 col-md-9 col-lg-10" width="" height="" controls>
+        <video id="video" class="col-12 col-md-10" width="" height="" controls>
           <source src="./videos/tablero-digital-matematicas-de-la-vida-diaria_GpjUKueh.mp4" type="video/mp4">
         </video>
       </div>
