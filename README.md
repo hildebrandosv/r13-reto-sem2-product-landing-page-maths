@@ -7,16 +7,16 @@
 ___
 ### --> ENUNCIADO:
 #### * Objetivo: Construye una aplicación en CodePen.io que funcionalmente sea similar a esta: https://codepen.io/freeCodeCamp/full/RKRbwL..
-> [Link_Ejercicio] https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
+> [Link_Ejercicio] https://www.freecodecamp.org/espanol/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
 #### * Donde se diseñe una LANDING PAGE con la respectiva historia de usuario y un diseño personal.
 ### DETALLE "HISTORIA DE USUARIO":
-* Historia de Usuario #1: Mi página de aterrizaje de producto debería tener un elemento header con un respectivo id="header".
+* (ok) ***Historia de Usuario #1:*** Mi página de aterrizaje de producto debería tener un elemento header con un respectivo id="header".
 
-* Historia de Usuario #2: Puedo ver una imagen dentro del elemento header con un respectivo id="header-img". El logotipo de una empresa sería una buena opción de imagen aquí.
+* ***Historia de Usuario #2:*** Puedo ver una imagen dentro del elemento header con un respectivo id="header-img". El logotipo de una empresa sería una buena opción de imagen aquí.
 
-* Historia de Usuario #3: Dentro del elemento #header puedo ver un elemento nav con un respectivo id="nav-bar".
+* ***Historia de Usuario #3:*** Dentro del elemento #header puedo ver un elemento nav con un respectivo id="nav-bar".
 
-* Historia de Usuario #4: Puedo ver al menos tres elementos en los que se puede hacer click dentro del elemento nav, cada uno con la clase nav-link.
+* ***Historia de Usuario #4:*** Puedo ver al menos tres elementos en los que se puede hacer click dentro del elemento nav, cada uno con la clase nav-link.
 
 * Historia de Usuario #5: Cuando hago clic en un botón .nav-link en el elemento nav, soy llevado a la sección correspondiente de la página de aterrizaje.
 
