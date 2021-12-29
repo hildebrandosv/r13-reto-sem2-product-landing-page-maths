@@ -18,8 +18,11 @@
    padding: 0;
    border: none;
 }
-body, nav{
+body{
   background-color: var(--colorBgNavBarr);
+}
+.clBg{
+  background-color: var(--colorBgNavBarr) !important;
 }
 #idMain {
   margin-top: 5em;
