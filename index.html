@@ -20,11 +20,131 @@
 </head>
 
 <body>
-  <!-- Main titles survey -->
-  <h1 id="title" class="text-center mt-5 clMainTitle">Las Matemáticas</h1>
-  <!-- Main DIV survey -->
-  <div id="idMainDiv" class="container w-50 rounded-3 clBgForms">
-  </div> <!-- End: id="idMainDiv"  -->
+  <!-- Header and Navbar-->
+  <div id="header"></div>
+  <header id="header">
+    <!-- NavBar -->
+    <nav id="nav-bar" class="mb-5 navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <img id="header-img" src="./images/maths01.png" alt="" width="50" height="50">
+        <a class="navbar-brand h1 fs-4 fw-bold mx-3" href="#idMain">Matemáticas ¡Divertidas!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="#idMain">Inicio</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" aria-current="page" href="#idAddition">Suma</a>
+            </li>
+            <li class="nav-item  me-5">
+              <a class="nav-link" aria-current="page" href="#idSubstraction">Resta</a>
+            </li>
+            <li class="nav-item  me-5">
+              <a class="nav-link" aria-current="page" href="#idMultiplication">Multiplicación</a>
+            </li>
+            <li class="nav-item  me-5">
+              <a class="nav-link" aria-current="page" href="#idDivision">División</a>
+            </li>
+            <li class="nav-item  me-5">
+              <a class="nav-link" aria-current="page" href="#idOthers">Otros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Main Section: starts rigth now -->
+  <section id="idMain" class="mb-5">
+    <h1 id="title" class="text-center mt-5 text-info display-6 fw-bold">
+      ¡Enamorarte de las matemáticas!
+      <span class="text-warning"> 😃</span>
+    </h1>
+    <form class="row d-flex justify-content-center mt-4">
+      <input class="form-control me-2 text-center w-50" type="search" placeholder="Digita tu correo electrónico"
+        aria-label="Search">
+      <button class="btn btn-outline-success w-25 fw-bold" type="submit">Comienza ya</button>
+    </form>
+  </section>
+  <!-- Section ADDITION -->
+  <section id="idAddition" class="container d-flex mt-4">
+    <img id="" class="me-4 img-fluid" src="./images/addition.png" alt="" width="115" height="115">
+    <div>
+      <h2>La maravillosa SUMA:</h2>
+      <p>Operación aritmética que consiste en reunir varias cantidades en una sola; se representa con el signo +. Por
+        ejemplo: "en todo triángulo rectángulo, la hipotenusa al cuadrado es igual a la suma de los cuadrados de los dos
+        catetos".
+      </p>
+    </div>
+  </section>
+  <!-- Section SUBSTRACTION -->
+  <section id="idSubstraction" class="container d-flex mt-4">
+    <img id="" class="me-4 img-fluid" src="./images/substraction.png" alt="" width="115" height="115">
+    <div>
+      <h2>La espectacular RESTA:</h2>
+      <p>Operación aritmética que consiste en quitar una cantidad (el sustraendo) de otra (el minuendo) para averiguar
+        la diferencia entre las dos; se representa con el signo -. Hay que tener presente que "hay que saber sumar, para
+        fácilmente poder restar".
+      </p>
+    </div>
+  </section>
+  <!-- Section MULTIPLICATION -->
+  <section id="idMultiplication" class="container d-flex mt-4">
+    <img id="" class="me-4 img-fluid" src="./images/multiplication.png" alt="" width="115" height="115">
+    <div>
+      <h2>La intrépida MULTIPLICACIÓN:</h2>
+      <p>Operación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando)
+        tantas veces como indica otro número (multiplicador); se representa con los signos · o ×. Y se debe recordar que
+        "la memoria le ayuda a realizar con más rapidez la multiplicación".
+      </p>
+    </div>
+  </section>
+  <!-- Section DIVISION -->
+  <section id="idDivision" class="container d-flex mt-4">
+    <img id="" class="me-4 img-fluid" src="./images/division.png" alt="" width="115" height="115">
+    <div>
+      <h2>La enigmática DIVISIÓN:</h2>
+      <p>Operación aritmética que consiste en calcular cuántas veces (cociente) una cantidad (el divisor) está contenida
+        en otra (el dividendo); se representa con los signos :, / o ―. Es importante tener en cuenta que "para aprender
+        a dividir, hay que saber sumar, restar y multiplicar".
+      </p>
+    </div>
+  </section>
+  <!-- Section OTHERS -->
+  <section id="idOthers" class="container d-flex mt-4">
+    <img id="" class="me-4 img-fluid" src="./images/others.png" alt="" width="115" height="115">
+    <div>
+      <h2>Otras áreas de interés y EXPECTACULARES:</h2>
+      <p>La forma en que se organizan las matemáticas de alto nivel está determinada sobre todo por los usos, y cambia
+        cada cierto tiempo; esto contrasta con los planes, al parecer atemporales usados en la educación de las
+        matemáticas, donde el cálculo parece ser el mismo hace mucho siglos. Algunos campos basicos de aplicación son:
+        aritmética, algebra, análisis, geometría, entre otros.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Video -->
+  <section class="container text-center">
+    <!-- <div class="ratio ratio-16x9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CVp8Du2wKgo" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div> -->
+    <div class="row container">
+      <div class="">
+        <video id="idVideo" class="col-12 col-md-9 col-lg-10" width="" height="" controls>
+          <source src="./videos/tablero-digital-matematicas-de-la-vida-diaria_GpjUKueh.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+
+
 
   <!-- Own Footer -->
   <footer class="mt-3 text-center text-lg-start bg-success bg-opacity-25 text-muted">

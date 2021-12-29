@@ -5,7 +5,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Press+Start+2P&display=swap'); */
 /* Variables definition */
 * {
-   --colorBgNavBarr: #f9da68;
+   --colorBgNavBarr: #EEEEEE;
    --colorMainTitle: #313172;
    --colorMainFooter: green;
    --colorBgError: lightgray;
@@ -18,12 +18,14 @@
    padding: 0;
    border: none;
 }
-body {
-  /* height: 100%;
-  background-image: url('../images/main-background.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover; */
+body, nav{
+  background-color: var(--colorBgNavBarr);
+}
+#idMain {
+  margin-top: 5em;
+}
+#idVideo {
+  overflow: hidden;
 }
 .clMainTitle {
   color: var(--colorMainTitle);

@@ -2,8 +2,8 @@
 ## Reto: Product Landing Page | Retos Semana 2 | 29 dec 2021 | Timelines
 
 > ## Formador : John Florez | @JohnFlorez25
-> ## [WebPage] 
-#### [Repositorio] 
+> ## [WebPage] https://hildebrandosv.github.io/r13-reto-sem2-product-landing-page-maths/
+#### [Repositorio] https://github.com/hildebrandosv/r13-reto-sem2-product-landing-page-maths
 ___
 ### --> ENUNCIADO:
 #### * Objetivo: Construye una aplicación en CodePen.io que funcionalmente sea similar a esta: https://codepen.io/freeCodeCamp/full/RKRbwL..
